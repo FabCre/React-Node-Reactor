@@ -1,0 +1,42 @@
+/**
+ * Global mixins and placeholders.
+ *
+ * TODO: Think about Bourbon for browser prefixes ;-)
+ */
+
+
+// Placeholders
+
+%clearfix
+  &::after
+    display: block
+    content: ""
+    clear: both
+
+%material-ui-field
+  height: $material-ui-height
+  margin-top: -18px
+
+%smiley
+  display: inline-block
+  font-family: 'BPdots'
+  letter-spacing: -0.15rem;
+  transform: rotate(90deg);
+
+
+// Mixins
+
+// No parameters, but mixin in order to control where it's output exactly, for proper override =)
+@mixin disabled()
+  &:hover, &:focus, &:active
+    opacity: .8
+    cursor: not-allowed
+    border: none
+    margin: $border-size
+    color: $white
+
+@mixin title($color: $blue-primary, $size: $font-size-title, $letter-spacing: $letter-spacing-base)
+  font-family: 'BPdots'
+  letter-spacing: $letter-spacing
+  font-size: $size
+  color: $color

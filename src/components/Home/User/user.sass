@@ -1,0 +1,79 @@
+.user
+  &__welcome
+    opacity: 1
+    transition: opacity .3s
+
+  &__logout
+    opacity: 0
+    transition: opacity .3s;
+    position: absolute
+    left: 0
+    right: 0
+
+    &-btn
+      @extend %h4, %button-reset
+
+  &__title
+    &:hover, &:focus
+      cursor: pointer
+
+      .user__welcome
+        opacity: 0
+
+      .user__logout
+        opacity: 1
+
+  &__button
+    @extend %button-secondary
+
+  /**
+   * Future tabs container
+   */
+  &__container
+    margin-top: $margin-main
+    padding: 12px
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.8)
+    border-radius: $radius-secondary
+
+/**
+ * User's page controls tutorial
+ */
+$gutter: 1rem
+
+.controls
+  margin-left: -$gutter
+  margin-right: -$gutter
+
+  &__control
+    padding-left: $gutter
+    padding-right: $gutter
+
+  &__subtitle
+    margin-top: $gutter
+
+  &__img
+    display: block
+    max-width: 100%
+
+/**
+ * User's page scores table
+ */
+// .table
+//   width: 100%
+//   margin-top: 1rem
+
+//   &__headings
+//     font-family: 'BPdots'
+//     border-top: 1px dotted $blue-primary
+//     border-bottom: 1px dotted $blue-primary
+
+//   &__col
+//     padding: .6rem
+//     border-left: 1px dotted $blue-primary
+
+//     &:first-child
+//       border-left: none
+
+//   &__heading
+//     padding-top: 0
+//     padding-bottom: 0

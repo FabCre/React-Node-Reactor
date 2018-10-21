@@ -1,0 +1,27 @@
+.sign
+  &__button
+    @extend %button-secondary
+
+  &__link
+    @extend %link-secondary
+
+  &__redirection
+    font-size: $font-size-sub
+
+    &:first-child
+      margin-top: $margin-main
+      margin-bottom: 1rem
+
+  &__form
+    margin-top: 5px
+    overflow: hidden // allows max-height + scrollbar for .layout-primary__wording
+
+  &__field
+    &--material-ui
+      @extend %material-ui-field
+
+  &__buttons
+    margin-top: 6vh
+
+  &__smiley
+    @extend %smiley

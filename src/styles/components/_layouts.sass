@@ -1,0 +1,181 @@
+html,
+body
+  width: 100%
+  height: 100%
+
+html
+  font-size: 12px
+
+  @media (min-width: $screen-sm)
+    font-size: 14px
+
+  @media (min-width: $screen-lg)
+    font-size: 16px
+
+body
+  font-family: 'Open sans', sans-serif
+  font-size: 1rem
+
+#root,
+.app,
+.layout-primary__wrapper
+  width: inherit
+  height: inherit
+  background: $grey-primary
+
+.layout-primary
+  text-align: center
+  padding-top: $big-logo-size / 2
+  color: $white
+  display: table-cell
+  vertical-align: middle
+
+  &__wrapper
+    background-color: black;
+    background: url("../images/swanLoop-xl@2x.jpg") no-repeat center
+    background-size: cover
+    display: table
+
+  &__content,
+  &__buttons
+    margin: $radius-primary auto
+    width: 50%
+    max-width: 900px
+
+    @media (min-width: $screen-xl)
+      width: 40%
+
+    @media (max-width: $screen-md-max)
+      width: 60%
+
+    @media (max-width: $screen-sm-max)
+      width: 80%
+
+    @media (max-width: $screen-xs-max)
+      width: 90%
+
+  &__content
+    position: relative
+    background: $grey-primary
+    border-radius: $radius-primary
+
+    &:before
+      top: -$radius-primary
+
+    &:after
+      bottom: -$radius-primary
+
+    &:before,
+    &:after
+      height: $radius-primary
+      left: $radius-primary
+      right: $radius-primary
+      background: radial-gradient(circle, rgba(97, 219, 251, 0.7) 0%, transparent 100%)
+
+    &-border
+      margin-bottom: $layout-horizontal-space
+      padding-bottom: 1px
+
+      &:before,
+      &:after
+        width: $radius-primary
+        top: $radius-primary
+        bottom: $radius-primary
+        background: radial-gradient(circle, rgba(97, 219, 251, 0.4) 0%, transparent 95%)
+
+      &:before
+        left: -$radius-primary
+
+      &:after
+        right: -$radius-primary
+
+    &,
+    &-border
+      &:before,
+      &:after
+        content: ""
+        display: block
+        position: absolute
+
+  &__wording
+    padding: 0 3rem .2rem
+    margin-bottom: $margin-main
+    font-size: 1.1rem
+    line-height: 1.4
+
+  &__h1
+    @extend %h1
+
+  &__h2
+    @extend %h2
+
+  &__h3
+    @extend %h3
+
+  &__h4
+    @extend %h4
+
+  &__h5
+    @extend %h5
+
+  &__p
+    margin-top: $margin-main
+    margin-bottom: $margin-main
+    text-align: justify
+    text-align-last: center
+
+  &__logo-link
+    position: relative
+    top: -($big-logo-size / 2)
+    height: $big-logo-size / 2
+    display: block
+    margin-top: $layout-horizontal-space
+
+  &__logo-img
+    display: inline-block
+    height: $big-logo-size
+
+  &__buttons
+    margin: 8vh auto $layout-horizontal-space
+
+.layout-grid
+  &__col-2
+    @include columns(2)
+
+/*
+ * MODAL (Material-UI Dialog)
+ *
+ * Ugly override due to lack of direct props :'(
+ */
+.modal
+  border-radius: $radius-primary !important
+
+  &__footer
+    button
+      border-radius: $radius-primary !important
+      font-family: 'BPdots' !important
+      line-height: 1 !important
+      padding-bottom: 4px !important
+
+      span
+        font-weight: 600 !important
+        font-size: 1.4rem !important
+        letter-spacing: $letter-spacing-base !important
+        text-transform: none !important
+
+/*
+ * ATTEMPT: change Autocomplete styles in Chrome
+ * (because autocomplete="off" DOES NOT work TT-TT)
+ * Only an attempt because not compatible with Material UI styles
+ */
+// @-webkit-keyframes autofill
+//   to
+//     background: transparent
+//     color: transparent
+//
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active
+//   -webkit-animation-name: autofill
+//   -webkit-animation-fill-mode: both

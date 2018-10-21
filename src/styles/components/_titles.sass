@@ -1,0 +1,45 @@
+%h1
+  @include title($blue-primary, 3em, .03em)
+  line-height: 1
+  color: $blue-primary
+
+%h2
+  @include title()
+  padding-bottom: 2.4rem
+  // NB: no :after + content:">>" + rotate instead, because of weird font alignment
+  background: url("../images/chevrons.png") no-repeat bottom center
+  background-size: 1.2rem
+  margin-top: .6rem
+
+%h3
+  @include title()
+  margin-top: .6rem
+
+%h4
+  @include title($white)
+
+  &:before,
+  &:after
+    display: inline-block
+
+  &:before
+    content: ">>"
+    margin-right: 1rem
+
+  &:after
+    content: "<<"
+    margin-left: 1rem
+
+%h5
+  @include title($size: 1.2rem)
+
+  &:before,
+  &:after
+    content: "-"
+    display: inline-block
+
+  &:before
+    margin-right: .2rem
+
+  &:after
+    margin-left: .2rem

@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>server/server.js - Documentation</title>
+
+        <script src="scripts/prettify/prettify.js"></script>
+        <script src="scripts/prettify/lang-css.js"></script>
+        <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+        <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+        <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+        <label for="nav-trigger" class="navicon-button x">
+            <div class="navicon"></div>
+        </label>
+
+        <label for="nav-trigger" class="overlay"></label>
+
+        <nav>
+            <input type="text" id="nav-search" placeholder="Search"/>
+            <h2>
+                <a href="index.html">Home</a>
+            </h2>
+            <h3>Classes</h3>
+            <ul>
+                <li>
+                    <a href="Component.App.html">App</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.App.html#.componentDidUpdate">componentDidUpdate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.App.html#.gameOver">gameOver</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.App.html#.gameWon">gameWon</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.App.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Ball.html">Ball</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Ball.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Ball.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Ball.html#.getBallWrapperStyles">getBallWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Ball.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Ball.html#.update">update</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.BallHole.html">BallHole</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.BallHole.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.BallHole.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.BallHole.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Bonus.html">Bonus</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Bonus.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Boss.html">Boss</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.bossPattern">bossPattern</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.checkIfBossAlive">checkIfBossAlive</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.frontAttack">frontAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.getBossWrapperStyles">getBossWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.getFrontAttackWrapperStyles">getFrontAttackWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.getLeftAttackWrapperStyles">getLeftAttackWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.getRightAttackWrapperStyles">getRightAttackWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.HandleAttackingState">HandleAttackingState</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.HandleIdleState">HandleIdleState</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.HandleMovingState">HandleMovingState</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.handlePlayStateChanged">handlePlayStateChanged</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.Move">Move</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.rotate">rotate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.sideAttack">sideAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Boss.html#.update">update</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Chest1.html">Chest1</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Chest1.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Chest1.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Chest1.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Chest2.html">Chest2</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Chest2.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Chest2.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Chest2.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.DialogLoginAlert.html">DialogLoginAlert</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.DialogLoginAlert.html#.handleClose">handleClose</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.DialogLoginAlert.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.DialogSignupAlert.html">DialogSignupAlert</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.DialogSignupAlert.html#.handleClose">handleClose</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.DialogSignupAlert.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.FalseAnswer.html">FalseAnswer</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.FalseAnswer.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.FalseAnswer.html#.submit">submit</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Forgotpassword.html">Forgotpassword</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Forgotpassword.html#.componentDidUpdate">componentDidUpdate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Forgotpassword.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Forgotpassword.html#.renderTextField">renderTextField</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Forgotpassword.html#.submit">submit</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Forgotpassword.html#.validate">validate</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Game.html">Game</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.componentDidUpdate">componentDidUpdate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.GameOver">GameOver</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.GameWon">GameWon</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.getHiddenWrapperStyles">getHiddenWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.getStageStyles">getStageStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.getWrapperStyles">getWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.physicsInit">physicsInit</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Game.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.GlobalMap.html">GlobalMap</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.GlobalMap.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Hole.html">Hole</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Hole.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Hole.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Hole.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Homepage.html">Homepage</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Homepage.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Homepage.html#.NotFound">NotFound</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Homepage.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Level1.html">Level1</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Level1.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level1.html#.getRandomInt">getRandomInt</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level1.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level1.html#.renderRadioGroup">renderRadioGroup</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level1.html#.submit">submit</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Level2.html">Level2</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Level2.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level2.html#.getRandomInt">getRandomInt</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level2.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level2.html#.renderRadioGroup">renderRadioGroup</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Level3.html">Level3</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Level3.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level3.html#.getRandomInt">getRandomInt</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level3.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Level3.html#.renderCheckbox">renderCheckbox</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Login.html">Login</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Login.html#.componentDidUpdate">componentDidUpdate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Login.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Login.html#.renderTextField">renderTextField</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Login.html#.submit">submit</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Login.html#.validate">validate</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Meta.html">Meta</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Meta.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Minimap.html">Minimap</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Minimap.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Reactor.html">Reactor</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.animationState">animationState</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.checkIfAlive">checkIfAlive</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.checkRoomChange">checkRoomChange</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.componentWillUnmount">componentWillUnmount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.getWrapperStyles">getWrapperStyles</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.handlePlayStateChanged">handlePlayStateChanged</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.handlePlayStateChanged">handlePlayStateChanged</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.Move">Move</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.resetCollisions">resetCollisions</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.shortResetCollisions">shortResetCollisions</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.shortResetCollisions">shortResetCollisions</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.throttleChangeRoom">throttleChangeRoom</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Reactor.html#.timestamp">timestamp</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.RoomBoss.html">RoomBoss</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.RoomBoss.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.RoomBoss.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.RoomChest.html">RoomChest</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.RoomChest.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.RoomHostile1.html">RoomHostile1</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.RoomHostile1.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.RoomHostile2.html">RoomHostile2</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.RoomHostile2.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.RoomStart.html">RoomStart</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.RoomStart.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.RoomStart.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Signup.html">Signup</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Signup.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Signup.html#.componentDidUpdate">componentDidUpdate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Signup.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Signup.html#.renderTextField">renderTextField</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Signup.html#.submit">submit</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Signup.html#.validate">validate</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.Stats.html">Stats</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.Stats.html#.damageRender">damageRender</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Stats.html#.lifeRender">lifeRender</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Stats.html#.render">render</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.Stats.html#.speedRender">speedRender</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.StatsBoss.html">StatsBoss</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.StatsBoss.html#.lifeBossRender">lifeBossRender</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.StatsBoss.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.User.html">User</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Component.User.html#.componentDidMount">componentDidMount</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.User.html#.componentDidUpdate">componentDidUpdate</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.User.html#.onLogout">onLogout</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Component.User.html#.render">render</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Modules</h3>
+            <ul>
+                <li>
+                    <a href="module-Database_Connection.html">Database_Connection</a>
+                </li>
+                <li>
+                    <a href="module-l10n_Client.html">l10n_Client</a>
+                </li>
+                <li>
+                    <a href="module-l10n_Server.html">l10n_Server</a>
+                </li>
+            </ul>
+            <h3>Namespaces</h3>
+            <ul>
+                <li>
+                    <a href="Action.html">Action</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Action.html">angleSideAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">answerQuizzLevel2</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">answerQuizzLevel3</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">attack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">authAction</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">ballCollision</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">bossAction</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">bossDamage</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">checkKeys</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">closeModal</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">createMap</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">deathAnimation</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">deathBossAnimation</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">debuggerMatterActive</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">debuggerMatterNotActive</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">disableBossOverlay</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">disableBossOverlay</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">disableStartOverlay</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">displayFrontAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">displaySideAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">falseAnswer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateLayersRoomBoss</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateLayersRoomChest</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateLayersRoomHostile1</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateLayersRoomHostile2</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateLayersRoomStart</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateLocalRoom</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateMaxRooms</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">generateRooms</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">getLogger</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">getLogger</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">hideFrontAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">hideSideAttack</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">holeCollision</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">initLogger</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">initQuizz</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">move</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">newBossAction</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">placeOriginRoom</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">receiveDamage</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">resetQuizzAnsweredOpenChest1</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">resetQuizzAnsweredOpenChest2</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">resolveQuizzLevel1</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">resolveQuizzLevel2</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">resolveQuizzLevel3</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">returnIdle</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">setBallPosition</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">setBossPosition</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">setPosition</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">setStage</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Action.html">stopBody</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Client_Auth.html">Client_Auth</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Client_Auth.html#.loginError">loginError</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Client_Auth.html#.loginUser">loginUser</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Client_Auth.html#.logoutUser">logoutUser</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Client_Auth.html#.registerUser">registerUser</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Client_Auth.html#.setAuthToken">setAuthToken</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Client_Auth.html#.signupError">signupError</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Component.html">Component</a>
+                </li>
+                <li>
+                    <a href="Container.html">Container</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Container.html">AppContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">BallContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">BonusContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">BossContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">Chest1Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">Chest2Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">FalseAnswerContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">ForgotpasswordContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">GameContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">GlobalMapContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">HoleContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">HompageContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">Level1Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">Level2Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">Level3Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">LoginContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">MetaContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">MinimapContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">Reactorontainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">RoomBossContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">RoomChestContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">RoomHostile1Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">RoomHostile2Container</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">RoomStartContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">SignupContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">StatsBossContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">StatsContainer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Container.html">UserContainer</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Middleware.html">Middleware</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Middleware.html">bossMiddleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">closeModalMiddleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">generateMapMiddleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">generateRoomMiddleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">level1Middleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">level1Middleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">level2Middleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">level3Middleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">loggerMiddleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">resetQuizzAnsweredOpenChest1Middleware</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Middleware.html">resetQuizzAnsweredOpenChest2Middleware</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Reducer.html">Reducer</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Reducer.html">authReducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">ballReducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">bossReducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">level1Reducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">level2Reducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">level3Reducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">mapRoomsReducer</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Reducer.html">reactorReducer</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Root.html">Root</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Root.html#.rootComponent">rootComponent</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Root.html#.setAuthToken">setAuthToken</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Server.html">Server</a>
+                    <ul class='methods'>
+                        <li data-type='method'>
+                            <a href="Server.html#.create">create</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findAllQuestionsLevel1ByQuizId">findAllQuestionsLevel1ByQuizId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findAllQuestionsLevel2ByQuizId">findAllQuestionsLevel2ByQuizId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findAllQuestionsLevel3ByQuizId">findAllQuestionsLevel3ByQuizId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findOneAnswerLevel1ByQuestionId">findOneAnswerLevel1ByQuestionId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findOneAnswerLevel2ByQuestionId">findOneAnswerLevel2ByQuestionId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findOneAnswerLevel3ByQuestionId">findOneAnswerLevel3ByQuestionId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findOneQuestionLevel1ByQuestionId">findOneQuestionLevel1ByQuestionId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findOneQuestionLevel2ByQuestionId">findOneQuestionLevel2ByQuestionId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.findOneQuestionLevel3ByQuestionId">findOneQuestionLevel3ByQuestionId</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.jwtToPassport">jwtToPassport</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.Listen">Listen</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.Loginfind">Loginfind</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.PostForgotpassword">PostForgotpassword</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.PostLogin">PostLogin</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.PostSignup">PostSignup</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.QuizzAnswerLevel1">QuizzAnswerLevel1</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.QuizzAnswerLevel2">QuizzAnswerLevel2</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.QuizzAnswerLevel3">QuizzAnswerLevel3</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.QuizzQuestionLevel1">QuizzQuestionLevel1</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.QuizzQuestionLevel2">QuizzQuestionLevel2</a>
+                        </li>
+                        <li data-type='method'>
+                            <a href="Server.html#.QuizzQuestionLevel3">QuizzQuestionLevel3</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="main">
+
+            <h1 class="page-title">server/server.js</h1>
+
+            <section>
+                <article>
+                    <pre class="prettyprint source linenums"><code>/**
+ * @namespace Server
+ * @desc Node Server description (method, route...).
+ */
+
+const express = require('express');
+const jwt = require('jsonwebtoken');
+const passport = require('passport');
+const l10n = require('./locales/l10n');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const app = express();
+
+/**
+* EXPRESS CONFIG DEFAULTS
+*/
+
+// Usefull to get data from REQUEST at the body key
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+// Allow Connection from origin and set options for methods and credentials
+app.use(cors(
+  {
+    origin: 'http://localhost:3000',
+    methods: ['GET', 'POST', 'DELETE', 'PUT'],
+    credentials: true
+  }
+));
+
+/**
+* MIDDLEWARE
+*/
+
+// passport initialisation - session definition is replaced by JWT here
+app.use(passport.initialize());
+
+/**
+* ROUTES
+*/
+
+/**
+ * @function PostSignup
+ * @memberof Server
+ * @param {string} route - The route /signup.
+ * @param {array} verification - Array of each fields of the form.
+ * @param {signupCallback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc Signup function:
+ *  verifies signup form data, create user in DB if valid, return an error array otherwise.
+ *  On DB insertion, select the last registered user, initiate a JWT token creation and return it to the app.
+ */
+
+// Input verification methods issued from express-validator
+const { check, validationResult } = require('express-validator/check');
+
+// Signup Form insert into Database
+app.post('/signup',
+  // Data validation from form input
+  [check('user').isLength({ min: 4 }).withMessage(l10n.errors.user),
+    check('email').isEmail().withMessage(l10n.errors.emailSignup),
+    check('password').isLength({ min: 5 }).withMessage(l10n.errors.password),
+    // Checking of the equality between password and confirmPassword (only works if req is past as parameter due to interaction express validator and bodyparser)
+    check('password', 'invalid password').custom((value, { req }) => {
+      if (value !== req.body.confirmPassword) {
+        throw new Error(l10n.errors.confirmPassword);
+      } else {
+        return value;
+      }
+    })
+  ],
+  // Data insertion in DB with error handling
+  (request, response) => {
+    /**
+     * @callback signupCallback
+     * @memberof PostSignup
+     * @param {object} request
+     * @param {object} response
+     * @returns {object} A formatted operation definition.
+     * @desc signup callback based on request param, fowarding response from the server
+     */
+    // If there is an error, return the array of error(s) with to the user with 401 status (Pop up a modal at the Sign Up page)
+    const errors = validationResult(request);
+    if (!errors.isEmpty()) {
+      console.log(errors.array(), 'Sign up validation check');
+      return response.status(401).send({ success: false, errors: errors.array(), message: l10n.errors.accountSignupFailed }).end();
+    }
+    // Require model to use method to CRUD in MySQL BDD
+    const Signup = require('./models/Signup');
+    // Create const with data from Request
+    const { user, email, password } = request.body;
+    // Use Create method to insert data and return result(s) find in BDD
+    Signup.create(user, email, password, (result) => {
+      // If there is a result, creation of the JWT and return to the user with 200 status and the token. The token is store in the user's local storage
+      if (result.lenght !== 0) {
+        console.log(result, 'id du dernier enregistrement de la bdd');
+        const payload = {
+          id: result.id,
+          user: result.user
+        };
+        jwt.sign(payload, 'JWTzob', {
+          expiresIn: 3600
+        },
+        (error, token) => {
+          if (error) {
+            console.error(error, 'there is a problem with JWTZOB');
+          } else {
+            response.status(201).send(
+              {
+                success: true,
+                token: token,
+                message: l10n.success.messageSignup
+              }
+            ).end();
+          }
+        });
+      } else {
+        // If there is a problem in the callback return with 401 status to the user
+        response.status(401).send({ success: false, message: l10n.errors.accountSignupFailed }).end();
+      }
+    });
+  });
+
+
+/**
+ * @function PostLogin
+ * @memberof Server
+ * @param {string} route - The route /login.
+ * @param {array} verification - Array of each fields of the form.
+ * @param {loginCallback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc login function: verifies login form, if valid, return an error array otherwise
+ */
+
+// Login Form select into Database
+app.post('/login',
+  // Data validation from form input
+  [check('user').isLength({ min: 4 }).withMessage(l10n.errors.user),
+    check('password').isLength({ min: 5 }).withMessage(l10n.errors.password)],
+  // Data selection in DB with error handling
+  (request, response) => {
+    /**
+     * @callback loginCallback
+     * @memberof PostLogin
+     * @param {object} request
+     * @param {object} response
+     * @returns {object} A formatted operation definition.
+     * @desc login callback based on request param, fowarding response from the server
+     */
+    // If there is an error, return the array of error(s) with to the user with 401 status (Pop up a modal at the Sign Up page)
+    const errors = validationResult(request);
+    if (!errors.isEmpty()) {
+      console.log(errors.array(), 'Log in validation check');
+      return response.status(401).send({ success: false, errors: errors.array(), message: l10n.errors.accountLoginFailed }).end();
+    }
+    // Require model to use method to CRUD in MySQL BDD
+    const Login = require('./models/Login');
+    // Create const with data from Request
+    const { user, password } = request.body;
+    // Use Create method to insert data and return result(s) find in BDD
+    Login.find(user, password, (result) => {
+      // If there is a result, creation of the JWT and return to the user with 200 status and the token. The token is store in the user's local storage
+      if (user === result.user) {
+        const payload = {
+          id: result.id,
+          user: result.user
+        };
+        jwt.sign(payload, 'JWTzob', {
+          expiresIn: 3600
+        },
+        (error, token) => {
+          if (error) {
+            console.error(error, 'there is a problem with JWTZOB');
+          } else {
+            response.status(201).send(
+              {
+                success: true,
+                token: token,
+                message: l10n.success.messageLogin
+              }
+            ).end();
+          }
+        });
+      } else {
+        // If there is a problem in the callback return with 401 status to the user
+        response.status(401).send({ success: false, message: l10n.errors.accountLoginFailed }).end();
+      }
+    });
+  });
+
+
+/**
+ * @function PostForgotpassword
+ * @memberof Server
+ * @param {string} route - The route /forgotpassword.
+ * @param {array} verification - Array of each fields of the form.
+ * @param {forgotpasswordCallback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc forgotpassword function: verifies forgotpassword form, if valid, return an error array otherwise
+ */
+// Forgotpassword Form send a email
+app.post('/forgotpassword',
+  // Data validation from form input
+  [check('email').isEmail().withMessage(l10n.errors.emailNotFound)],
+  // TODO a valid response with a link to reset the password and request to BDD to find the user
+  (request, response) => {
+    /**
+     * @callback forgotpasswordCallback
+     * @memberof PostForgotpassword
+     * @param {object} request
+     * @param {object} response
+     * @returns {object} A formatted operation definition.
+     * @desc forgotpassword callback based on request param, fowarding response from the server
+     */
+    response.status(200).send({ success: true, message: l10n.success.messageForgotpassword });
+  });
+
+/**
+ * @function QuizzQuestionLevel1
+ * @memberof Server
+ * @param {string} route - The route /quizz/level1/:id.
+ * @param {getlevel1Callback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc quizzlevel1 function: verifies quizzlevel1 form, if valid, return an error array otherwise
+ */
+// Quizz Level 1 GET to get a question
+app.get('/quizz/level1/:id', (request, response) => {
+  /**
+   * @callback getlevel1Callback
+   * @memberof QuizzQuestionLevel1
+   * @param {object} request
+   * @param {object} response
+   * @returns {object} A formatted operation definition.
+   * @desc quizzlevel1 callback based on request param, fowarding response from the server
+    */
+  const QuizzLevel1 = require('./models/QuizzLevel1');
+  const { id } = request.params;
+  QuizzLevel1.findOneQuestionLevel1ByQuestionId(id, (result) => {
+    if (result !== false) {
+      response.status(200).send({ success: true, result });
+    } else {
+      response.status(500).send({ success: false, message: l10n.errors.mysqlrequest }).end();
+    }
+  });
+});
+
+/**
+ * @function QuizzAnswerLevel1
+ * @memberof Server
+ * @param {string} route - The route /quizz/level1/:id.
+ * @param {postlevel1Callback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc quizzlevel1 function: verifies quizzlevel1 form, if valid, return an error array otherwise
+ */
+// Quizz Level 1 POST to get the correct answer and return true or false to the answer
+app.post('/quizz/level1/:id', (request, response) => {
+  /**
+   * @callback postlevel1Callback
+   * @memberof QuizzAnswerLevel1
+   * @param {object} request
+   * @param {object} response
+   * @returns {object} A formatted operation definition.
+   * @desc quizzlevel1 callback based on request param, fowarding response from the server
+    */
+  const QuizzLevel1 = require('./models/QuizzLevel1');
+  const { id } = request.params;
+  const { answerLevel1 } = request.body;
+  QuizzLevel1.findOneAnswerLevel1ByQuestionId(answerLevel1, id, (result) => {
+    if (result === false) {
+      response.status(200).send({ success: false });
+    } else if (result !== false) {
+      response.status(200).send({ success: true, result });
+    } else {
+      response.status(500).send({ success: false, message: l10n.errors.mysqlrequest }).end();
+    }
+  });
+});
+
+/**
+ * @function QuizzQuestionLevel2
+ * @memberof Server
+ * @param {string} route - The route /quizz/level2/:id.
+ * @param {getlevel2Callback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc quizzlevel2 function: verifies quizzlevel2 form, if valid, return an error array otherwise.
+ */
+// Quizz Level 2 GET to get a question
+app.get('/quizz/level2/:id', (request, response) => {
+  /**
+   * @callback getlevel2Callback
+   * @memberof QuizzQuestionLevel2
+   * @param {object} request
+   * @param {object} response
+   * @returns {object} A formatted operation definition.
+   * @desc quizzlevel2 callback based on request param, fowarding response from the server
+    */
+  const QuizzLevel2 = require('./models/QuizzLevel2');
+  const { id } = request.params;
+  QuizzLevel2.findOneQuestionLevel2ByQuestionId(id, (result) => {
+    if (result !== false) {
+      response.status(200).send({ success: true, result });
+    } else {
+      response.status(500).send({ success: false, message: l10n.errors.mysqlrequest }).end();
+    }
+  });
+});
+
+/**
+ * @function QuizzAnswerLevel2
+ * @memberof Server
+ * @param {string} route - The route /quizz/level2/:id.
+ * @param {postlevel2Callback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc quizzlevel2 function: verifies quizzlevel2 form, if valid, return an error array otherwise.
+ */
+// Quizz Level 2 POST to get the correct answer and return true or false to the answer
+app.post('/quizz/level2/:id', (request, response) => {
+  /**
+   * @callback postlevel2Callback
+   * @memberof QuizzAnswerLevel2
+   * @param {object} request
+   * @param {object} response
+   * @returns {object} A formatted operation definition.
+   * @desc quizzleve2 callback based on request param, fowarding response from the server
+    */
+  const QuizzLevel2 = require('./models/QuizzLevel2');
+  const { id } = request.params;
+  const { answerLevel2 } = request.body;
+  QuizzLevel2.findOneAnswerLevel2ByQuestionId(answerLevel2, id, (result) => {
+    if (result === false) {
+      response.status(200).send({ success: false });
+    } else if (result !== false) {
+      response.status(200).send({ success: true, result });
+    } else {
+      response.status(500).send({ success: false, message: l10n.errors.mysqlrequest }).end();
+    }
+  });
+});
+
+/**
+ * @function QuizzQuestionLevel3
+ * @memberof Server
+ * @param {string} route - The route /quizz/level3/:id.
+ * @param {getlevel3Callback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc quizzlevel3 function: verifies quizzlevel3 form, if valid, return an error array otherwise.
+ */
+// Quizz Level 3 GET to get a question
+app.get('/quizz/level3/:id', (request, response) => {
+  /**
+   * @callback getlevel3Callback
+   * @memberof QuizzQuestionLevel3
+   * @param {object} request
+   * @param {object} response
+   * @returns {object} A formatted operation definition.
+   * @desc quizzlevel3 callback based on request param, fowarding response from the server
+    */
+  const QuizzLevel3 = require('./models/QuizzLevel3');
+  const { id } = request.params;
+  QuizzLevel3.findOneQuestionLevel3ByQuestionId(id, (result) => {
+    if (result !== false) {
+      response.status(200).send({ success: true, result });
+    } else {
+      response.status(500).send({ success: false, message: l10n.errors.mysqlrequest }).end();
+    }
+  });
+});
+/**
+ * @function QuizzAnswerLevel3
+ * @memberof Server
+ * @param {string} route - The route /quizz/level3/:id.
+ * @param {postlevel3Callback} (request,response) - The callback that handles the request and the response.
+ * @returns {object} A formatted operation definition.
+ * @desc quizzlevel3 function: verifies quizzlevel3 form, if valid, return an error array otherwise.
+ */
+// Quizz Level 3 POST to get the correct answer and return true or false to the answer
+app.post('/quizz/level3/:id', (request, response) => {
+    /**
+   * @callback postlevel3Callback
+   * @memberof QuizzAnswerLevel3
+   * @param {object} request
+   * @param {object} response
+   * @returns {object} A formatted operation definition.
+   * @desc quizzlevel3 callback based on request param, fowarding response from the server
+    */
+  const QuizzLevel3 = require('./models/QuizzLevel3');
+  const { id } = request.params;
+  const { answer1, answer2 } = request.body;
+  QuizzLevel3.findOneAnswerLevel3ByQuestionId(answer1, answer2, id, (result) => {
+    if (result === false) {
+      response.status(200).send({ success: false });
+    } else if (result !== false) {
+      response.status(200).send({ success: true, result });
+    } else {
+      response.status(500).send({ success: false, message: l10n.errors.mysqlrequest }).end();
+    }
+  });
+});
+
+/**
+ * @function Listen
+ * @memberof Server
+ * @desc Node server listens on port 3001 (localhost:3001 in dev build)
+ */
+
+app.listen(3001, () => {
+  console.log('Node Server listens on the port 3001');
+});
+</code></pre>
+                </article>
+            </section>
+
+        </div>
+
+        <br class="clear">
+
+        <footer>
+            Documentation generated by
+            <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+            on Fri Oct 19 2018 19:10:18 GMT+0200 (GMT+02:00) using the
+            <a href="https://github.com/clenemt/docdash">docdash</a>
+            theme.
+        </footer>
+
+        <script>
+            prettyPrint();
+        </script>
+        <script src="scripts/linenumber.js"></script>
+        <script src="scripts/jquery-3.1.1.min.js"></script>
+        <script src="scripts/search.js"></script>
+        <script src="scripts/collapse.js"></script>
+    </body>
+</html>
