@@ -40,7 +40,9 @@
     "build:dev": "NODE_ENV=development webpack",
     "build:dev:win": "set NODE_ENV=development && webpack",
     "build:prod": "NODE_ENV=production webpack --mode production",
-    "build:prod:win": "set NODE_ENV=production && webpack --mode production"
+    "build:prod:win": "set NODE_ENV=production && webpack --mode production",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/polyfill": "*",
@@ -71,6 +73,8 @@
     "react-router-dom": "*",
     "redux": "*",
     "redux-form": "*",
-    "shuffle-array": "*"
-  }
+    "shuffle-array": "*",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
