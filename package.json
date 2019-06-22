@@ -53,7 +53,7 @@
     "express": "*",
     "express-mysql-session": "*",
     "express-session": "*",
-    "express-validator": "*",
+    "express-validator": "6.0.0",
     "jwt-decode": "*",
     "lodash": "*",
     "material-ui": "*",
