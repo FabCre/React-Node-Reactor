@@ -8,7 +8,7 @@
 ![Node](https://img.shields.io/badge/NODE-v10.12.0-blue.svg?style=plastic)
 </h1>
 
-Welcome on the project Reactor. This is an end-of-studies project, it's a rogue-like game programmed in React and Node.
+Welcome on the project Reactor. It's a rogue-like game programmed in React and Node.
 
 
 ## Requirements
